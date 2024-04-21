@@ -101,7 +101,7 @@ body {
   pointer-events: none;
 }
 /* Small */
-@media (min-width:768px) {
+@media (min-width:550px) {
   .memory-game-blocks,
   .info-container{
       width: 750px;
