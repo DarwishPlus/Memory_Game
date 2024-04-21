@@ -7,141 +7,144 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="control-buttons">
-    <span>Start Game</span>
+  <div class="container">
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <div class="info-container">
+      <div class="name">
+        Hello: <span></span>
+      </div>
+      <div class="tries">
+        Wrong Tries: <span></span>
+      </div>
+    </div>
+    <div class="memory-game-blocks">
+      <div class="game-block" data-animal="animal_1">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (1).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_1">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (1).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-animal="animal_2">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (2).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_2">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (2).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-animal="animal_3">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (3).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_3">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (3).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-animal="animal_4">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (4).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_4">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (4).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-animal="animal_5">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (5).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_5">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (5).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-animal="animal_6">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (6).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_6">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (6).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-animal="animal_7">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (7).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_7">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (7).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-animal="animal_8">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (8).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_8">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (8).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block " data-animal="animal_9">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (9).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_9">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (9).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-animal="animal_10">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (10).jpg" alt="">
+        </div>
+      </div>
+      <div class="game-block"data-animal="animal_10">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="images/01 (10).jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <audio id="success" src="audio/correct-choice.mp3"></audio>
+    <audio id="fail" src="audio/error.mp3"></audio>
   </div>
-  <div class="info-container">
-    <div class="name">
-      Hello: <span></span>
-    </div>
-    <div class="tries">
-      Wrong Tries: <span></span>
-    </div>
-  </div>
-  <div class="memory-game-blocks">
-    <div class="game-block" data-animal="animal_1">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (1).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_1">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (1).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block" data-animal="animal_2">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (2).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_2">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (2).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block" data-animal="animal_3">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (3).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_3">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (3).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block" data-animal="animal_4">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (4).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_4">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (4).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block" data-animal="animal_5">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (5).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_5">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (5).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block" data-animal="animal_6">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (6).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_6">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (6).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block" data-animal="animal_7">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (7).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_7">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (7).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block" data-animal="animal_8">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (8).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_8">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (8).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block " data-animal="animal_9">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (9).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_9">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (9).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block" data-animal="animal_10">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (10).jpg" alt="">
-      </div>
-    </div>
-    <div class="game-block"data-animal="animal_10">
-      <div class="face front"></div>
-      <div class="face back">
-        <img src="images/01 (10).jpg" alt="">
-      </div>
-    </div>
-  </div>
-  <audio id="success" src="audio/correct-choice.mp3"></audio>
-  <audio id="fail" src="audio/error.mp3"></audio>
+
   <script src="js/main.js"></script>
 </body>
 </html>
